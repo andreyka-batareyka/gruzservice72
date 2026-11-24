@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /404.html
+
+Sitemap: https://andreyka-batareyka.github.io/gruzservice72/sitemap.xml

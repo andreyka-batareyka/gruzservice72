@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B120F"/>
+      <stop offset="1" stop-color="#132019"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#12B981"/>
+      <stop offset="0.55" stop-color="#FFC24B"/>
+      <stop offset="1" stop-color="#FF6A2B"/>
+    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0V60" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <circle cx="150" cy="120" r="300" fill="#12B981" opacity="0.16"/>
+  <circle cx="1060" cy="120" r="280" fill="#FF6A2B" opacity="0.18"/>
+
+  <g transform="translate(80,70)">
+    <rect width="64" height="64" rx="16" fill="#FF6A2B"/>
+    <g fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M50 24v16a4 4 0 0 1-2 3.46l-16 8a4 4 0 0 1-4 0l-16-8A4 4 0 0 1 10 40V24a4 4 0 0 1 2-3.46l16-8a4 4 0 0 1 4 0l16 8A4 4 0 0 1 50 24z"/>
+      <path d="M14 21l18 9 18-9M32 52V30"/>
+    </g>
+    <text x="84" y="30" font-family="Montserrat, Arial, sans-serif" font-size="30" font-weight="700" fill="#F3F6F4">ГрузСервис 72</text>
+    <text x="84" y="56" font-family="Montserrat, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="4" fill="#A6B4AD">ТЮМЕНЬ</text>
+  </g>
+
+  <text x="80" y="290" font-family="Montserrat, Arial, sans-serif" font-size="72" font-weight="800" fill="#F3F6F4">Перевезём вещи</text>
+  <text x="80" y="372" font-family="Montserrat, Arial, sans-serif" font-size="72" font-weight="800" fill="url(#acc)">и вывезем хлам</text>
+  <text x="80" y="428" font-family="Montserrat, Arial, sans-serif" font-size="26" font-weight="500" fill="#A6B4AD">Квартирные и офисные переезды · Вывоз мусора · Свои газели и грузчики</text>
+
+  <g transform="translate(80,480)">
+    <rect width="330" height="72" rx="36" fill="#FF6A2B"/>
+    <text x="34" y="46" font-family="Montserrat, Arial, sans-serif" font-size="28" font-weight="700" fill="#fff">+7 (912) 000-00-00</text>
+    <text x="370" y="46" font-family="Montserrat, Arial, sans-serif" font-size="22" font-weight="600" fill="#12B981">Подача от 30 минут · Цена фиксируется заранее</text>
+  </g>
+</svg>
